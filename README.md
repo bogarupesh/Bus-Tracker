@@ -1,27 +1,22 @@
-# Creating NodeJS and/or Web programs in Codio
+This project is a simple demonstration of animating a bus on a map tracking between two locations, specifically between MIT and Harvard. It uses Mapbox GL JS to render the map and handle the animation.
 
-### Make a new file
-Use **File > New File...** or right-click in the file tree to create a new file. You can right-click in the file tree to rename or delete files.
+Getting Started
+To run this project locally, follow these steps:
 
-As Codio detects which file is in focus, simply put your cursor into whichever code editor you want to preview and use the "Preview Current File".
+Clone this repository to your local machine.
+Open index.html in a web browser.
+Usage
+Click the "Show stops between MIT and Harvard" button to start the animation. The marker will move between each bus stop along the route at regular intervals.
 
-### View site or Current file
-Use the Preview button (with the "play" icon) to see a preview of the website.
-
-![](https://global.codio.com/platform/readme.resources/PreviewMenuWeb.png)
-
-Use the drop-down arrow to the right of the "Preview Website" option to change the button to view the current file. You can also configure your preview button to open the preview as a new tab inside Codio, or as a new tab in your browser.
-
-### Running Node
-Use the Run button (with the "rocketship" icon) to start the current NodeJS file. To stop node, press ctrl + c in the terminal.
-
-### Debug your Code
-Use the "Debug Current NodeJS File" on the far right of the top menu bar to launch the debugger targeting the NodeJS file your cursor is in.
-
-Use your browser's built in Developer Tools to debug other web projects such as HTML/CSS.
-
-### Reconfigure your Panels for easier development
-Use the **View > Panels** menu on the top tool bar to segment your screen.
-
-Simply drag the tab of the file or terminal (the part with the name) you want to move into the new panel.
-
+Dependencies
+Mapbox GL JS: A JavaScript library that uses WebGL to render interactive maps.
+Mapbox Styles: Stylesheets provided by Mapbox to customize the appearance of maps.
+Files
+index.html: HTML file containing the structure of the web page and the button to trigger the animation.
+mapanimation.js: JavaScript file containing the logic for animating the marker between bus stops.
+styles.css: CSS file for styling the map overlay and button.
+README.md: This file, providing information about the project.
+Credits
+Map data: Mapbox
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
